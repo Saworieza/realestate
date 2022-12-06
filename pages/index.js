@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
@@ -14,6 +15,7 @@ export default function Home(){
       <h1> Hello World</h1>
       <Banner purpose="For Sale" />
       <Banner purpose="For Rent" />
+      <Banner purpose="For Lease" />
     </div>
   )
 }
